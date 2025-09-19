@@ -10,7 +10,6 @@ public class RotateLayer : MonoBehaviour
     [SerializeField] private bool turnPlus = false;
     [SerializeField] private bool turnMinus = false;
 
-
     void Awake()
     {
         transform.localPosition = position;
